@@ -1,20 +1,41 @@
 import React from "react"
 
-import Layout from "../components/layout"
+//import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Menu from "../components/menu"
+import Dulce from "../components/dulce"
+import Ingredientes from "../components/ingredientes"
+import Salado from "../components/salado"
+import Malteadas from "../components/malteadas"
+import {createGlobalStyle} from "styled-components"
+
+const Global = createGlobalStyle`
+body{
+  background-color: #1b130e
+}
+`
+
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    
-  </Layout>
+  <center>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Montserrat:ital@1&family=Noto+Sans+JP:wght@500;700&family=Ranchers&display=swap" rel="stylesheet"></link>
+    <SEO title="dulce" />
+    <Global/>
+    <br/>
+    <Image />
+    <Menu></Menu>
+    <Dulce></Dulce>
+    <Ingredientes></Ingredientes>
+    <Salado></Salado>
+    <Malteadas></Malteadas>
+  </center>
 )
 
 export default IndexPage
+
+
+
+
+
+
