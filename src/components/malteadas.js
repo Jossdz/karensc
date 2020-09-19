@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const Rectangulo = styled.div`
 border-radius: 6px;
   width: 90%;
-
+  padding: 6px 0;
   height: 369px;
   box-shadow: 0 0 14px 0 rgba(246, 146, 34, 0.6);
   border: solid 3px #f69222;

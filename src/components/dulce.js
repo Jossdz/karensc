@@ -2,9 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Rectangulo = styled.div`
+padding: 6px 0;
     border-radius: 6px;
   width: 90%;
-  height: 700px;
+
   box-shadow: 0 0 14px 0 rgba(237, 24, 144, 0.6);
   border: solid 3px #ed1890;
   margin-bottom: 30px;
@@ -25,7 +26,7 @@ const P = styled.div`
 `
 const Ul = styled.div`
   width: 310px;
-  height: 50px;
+
   font-family: Roboto, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: normal;
@@ -40,7 +41,7 @@ const Ul = styled.div`
 
   const Li = styled.div`
   width: 300px;
-  height: 50px;
+
   text-shadow: 0 3px 6px rgba(237, 24, 144, 0.6);
   font-family: Roboto, Helvetica, sans-serif;
   font-size: 15px;
@@ -60,6 +61,7 @@ const dulce = () => {
             <Ul>
                 <P>Dulce $35</P>
                 <Li>(Incluye 2 ingredientes)</Li>
+                <br/>
                 <li>Chispas</li>
                 <li>Plátano</li>
                 <li>Philadelphia</li>

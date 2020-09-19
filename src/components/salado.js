@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Rectangulo = styled.div`
   border-radius: 6px;
   width: 90%;
- 
+  padding: 6px 0;
   box-shadow: 0 0 14px 0 rgba(42, 166, 221, 0.6);
   border: solid 3px #2aa6dd;
   margin-bottom: 30px;
@@ -25,7 +25,7 @@ width: 300px;
 `
 const Li = styled.li`
 width: 300px;
-height: 50px;
+
 text-shadow: 0 3px 6px rgba(42, 166, 221, 0.6);
 font-family: Roboto, Helvetica, sans-serif;
 font-size: 15px;
@@ -39,7 +39,8 @@ color: #2aa6dd;
 `
 const Ul = styled.ul`
   width: 300px;
-  
+  margin: 0;
+  padding: 0;
   font-family: Roboto, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: normal;

@@ -7,7 +7,7 @@ const Rectangulo = styled.div`
   width: 327px;
   border-radius: 6px;
   width: 90%;
- 
+  padding: 6px 0;
   box-shadow: 0 0 14px 0 rgba(242, 235, 25, 0.6);
   border: solid 3px yellow;
   margin-bottom: 30px;
