@@ -6,13 +6,13 @@ const P = styled.div`
   height: 65px;
   text-shadow: 0 0 25px rgba(24, 169, 157, 0.6);
   font-family: 'Noto Sans JP', sans-serif;
-  font-size: 39px;
+  font-size: 60px;
   line-height: 1.15;
   letter-spacing: normal;
   text-align: center;
   color: #18a99d;
   font-weight: bold;
-  margin-top: 7px;
+  margin: 10px 0 18px;
 `
 const menu = () => {
     return (

@@ -2,16 +2,16 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Rectangulo = styled.div`
-    
+  display: flex;
+  flex-direction: column;
   width: 327px;
-  height: 350px;
+  border-radius: 6px;
+  width: 90%;
+ 
   box-shadow: 0 0 14px 0 rgba(242, 235, 25, 0.6);
   border: solid 3px yellow;
   margin-bottom: 30px;
-`
-const Li = styled.div`
-    width: 280px;
-  height: 50px;
+  h3{
   text-shadow: 0 3px 6px rgba(242, 235, 24, 0.6);
   font-family: Roboto, Helvetica, sans-serif;
   font-size: 28px;
@@ -22,26 +22,26 @@ const Li = styled.div`
   letter-spacing: normal;
   text-align: center;
   color: #f2eb18;
+  }
 `
-const Lu = styled.div`
-  width: 260px;
-  height: 50px;
+
+const Lu = styled.li`
+ 
   font-family: Roboto, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 4;
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-  list-style: none
+  list-style: none;
   `
 const ingredientes = () => {
     return (
        <Rectangulo>
-             <ul>
-                <Li>Ingredientes Karen’s <br></br> $8 c/u</Li>
+                <h3>Ingredientes Karen’s <br></br> $8 c/u</h3>
+             <ul style={{margin: 0, padding: 0}} >
                 <Lu>Kit-kat</Lu>
                 <Lu>M&M’s</Lu>
                 <Lu>Carlos V</Lu>

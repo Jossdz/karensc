@@ -1,7 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 const Rectangulo = styled.div`
-  width: 327px;
+border-radius: 6px;
+  width: 90%;
+
   height: 369px;
   box-shadow: 0 0 14px 0 rgba(246, 146, 34, 0.6);
   border: solid 3px #f69222;
@@ -33,7 +35,7 @@ width: 300px;
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-  list-style: none
+  list-style: none;
 `
 const malteadas = () => {
     return (

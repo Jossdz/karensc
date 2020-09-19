@@ -20,7 +20,7 @@ body{
 const IndexPage = () => (
   <center>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Montserrat:ital@1&family=Noto+Sans+JP:wght@500;700&family=Ranchers&display=swap" rel="stylesheet"></link>
-    <SEO title="dulce" />
+    <SEO title="Menu" />
     <Global/>
     <br/>
     <Image />

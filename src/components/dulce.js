@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Rectangulo = styled.div`
-    
-  width: 327px;
+    border-radius: 6px;
+  width: 90%;
   height: 700px;
   box-shadow: 0 0 14px 0 rgba(237, 24, 144, 0.6);
   border: solid 3px #ed1890;
@@ -35,7 +35,7 @@ const Ul = styled.div`
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-  list-style: none
+  list-style: none;
   `
 
   const Li = styled.div`
@@ -72,7 +72,7 @@ const dulce = () => {
                 <li>Durazno</li>
                 <li>Manzana</li>
                 <li>Helado</li>
-                <li>(Ingrediente extra $5)</li>
+                <Li>(Ingredientes extra $5)</Li>
             </Ul>
         </Rectangulo>
     )

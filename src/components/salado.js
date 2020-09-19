@@ -2,8 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Rectangulo = styled.div`
-  width: 327px;
-  height: 590px;
+  border-radius: 6px;
+  width: 90%;
+ 
   box-shadow: 0 0 14px 0 rgba(42, 166, 221, 0.6);
   border: solid 3px #2aa6dd;
   margin-bottom: 30px;
@@ -22,7 +23,7 @@ width: 300px;
   text-align: center;
   color: #2aa6dd;
 `
-const Li = styled.div`
+const Li = styled.li`
 width: 300px;
 height: 50px;
 text-shadow: 0 3px 6px rgba(42, 166, 221, 0.6);
@@ -36,9 +37,9 @@ letter-spacing: normal;
 text-align: center;
 color: #2aa6dd;
 `
-const Ul = styled.div`
+const Ul = styled.ul`
   width: 300px;
-  height: 50px;
+  
   font-family: Roboto, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: normal;
